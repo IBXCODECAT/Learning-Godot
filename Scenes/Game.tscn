@@ -553,10 +553,10 @@ text = "Almost There..."
 
 [node name="Controls Hint4" type="Label" parent="UI"]
 modulate = Color(0.196078, 0.196078, 0.196078, 1)
-offset_left = 485.0
-offset_top = -182.0
-offset_right = 596.0
-offset_bottom = -173.0
+offset_left = 523.0
+offset_top = -180.0
+offset_right = 634.0
+offset_bottom = -171.0
 theme_override_fonts/font = ExtResource("8_abx71")
 theme_override_font_sizes/font_size = 8
 text = "You Did It! :D"
@@ -574,9 +574,9 @@ for Slimes!"
 [node name="Score Label" type="Label" parent="UI"]
 unique_name_in_owner = true
 modulate = Color(0.196078, 0.196078, 0.196078, 1)
-offset_left = 485.0
+offset_left = 513.0
 offset_top = -167.0
-offset_right = 596.0
+offset_right = 624.0
 offset_bottom = -158.0
 theme_override_fonts/font = ExtResource("7_nlyu2")
 theme_override_font_sizes/font_size = 8
