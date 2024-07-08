@@ -15,6 +15,10 @@ run/main_scene="res://Scenes/Game.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+MusicStream="*res://Scenes/MusicStream.tscn"
+
 [dotnet]
 
 project/assembly_name="Godot Test"
