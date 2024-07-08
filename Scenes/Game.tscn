@@ -1,7 +1,6 @@
-[gd_scene load_steps=14 format=3 uid="uid://b6n0r4jfu54jw"]
+[gd_scene load_steps=13 format=3 uid="uid://b6n0r4jfu54jw"]
 
 [ext_resource type="PackedScene" uid="uid://b1s45tqagskiv" path="res://Scenes/Player.tscn" id="1_s6utq"]
-[ext_resource type="Script" path="res://Scripts/player.cs" id="2_0a6sj"]
 [ext_resource type="Texture2D" uid="uid://k5rvyr7rlqih" path="res://Assets/sprites/world_tileset.png" id="3_46fq0"]
 [ext_resource type="PackedScene" uid="uid://cneq1mo5yhrub" path="res://Scenes/Platform.tscn" id="4_tuuhn"]
 [ext_resource type="PackedScene" uid="uid://cnlimwogm3u1g" path="res://Scenes/Coin.tscn" id="5_26hnf"]
@@ -453,7 +452,6 @@ _data = {
 
 [node name="Player" parent="." instance=ExtResource("1_s6utq")]
 position = Vector2(7, 0)
-script = ExtResource("2_0a6sj")
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(1, -8)
